@@ -22,7 +22,7 @@ const textSizeClasses = {
 }
 
 export default function Logo({ 
-  variant = 'logo', 
+  // variant = 'logo', 
   size = 'md', 
   className = '', 
   showText = false 
