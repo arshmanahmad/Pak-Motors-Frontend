@@ -4,6 +4,7 @@ import Login from './pages/auth/Login'
 import Signup from './pages/auth/Signup'
 import DashboardWrapper from './components/DashboardWrapper'
 import Dashboard from './pages/dashboard/Dashboard'
+import Purchase from './pages/purchase/Purchase'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </Route>
         <Route element={<DashboardWrapper />}>
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/purchase" element={<Purchase />} />
         </Route>
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>

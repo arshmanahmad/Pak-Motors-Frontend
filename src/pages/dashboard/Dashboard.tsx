@@ -50,6 +50,32 @@ export default function Dashboard() {
         ))}
       </div> */}
 
+      {/* Quick Actions */}
+      {/* <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <Link 
+            to="/purchase" 
+            className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors"
+          >
+            <div className="text-2xl mb-2">🛒</div>
+            <p className="text-sm font-medium text-gray-700">Purchase Management</p>
+          </Link>
+          <button className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors">
+            <div className="text-2xl mb-2">🚗</div>
+            <p className="text-sm font-medium text-gray-700">Add Vehicle</p>
+          </button>
+          <button className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors">
+            <div className="text-2xl mb-2">👥</div>
+            <p className="text-sm font-medium text-gray-700">Add Customer</p>
+          </button>
+          <button className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors">
+            <div className="text-2xl mb-2">💰</div>
+            <p className="text-sm font-medium text-gray-700">New Sale</p>
+          </button>
+        </div>
+      </div> */}
+
       {/* Main Content Grid */}
       {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
