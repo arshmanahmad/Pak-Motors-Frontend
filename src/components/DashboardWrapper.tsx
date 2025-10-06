@@ -13,6 +13,8 @@ export default function DashboardWrapper({ children }: DashboardWrapperProps) {
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: '📊' },
     { name: 'Purchase', href: '/purchase', icon: '🛒' },
+    { name: 'Companies', href: '/companies', icon: '🏢' },
+    { name: 'Models', href: '/models', icon: '🚗' },
     // { name: 'Vehicles', href: '/dashboard/vehicles', icon: '🚗' },
     // { name: 'Customers', href: '/dashboard/customers', icon: '👥' },
     // { name: 'Sales', href: '/dashboard/sales', icon: '💰' },
