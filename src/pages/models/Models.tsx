@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import Table from '../../components/Table'
 import { useCompanies, useCreateModel, useModels } from '../../hooks/company'
 
