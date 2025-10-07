@@ -1,19 +1,19 @@
 import Logo from '../../components/Logo'
 
 export default function Dashboard() {
-//   const stats = [
-//     { name: 'Total Vehicles', value: '1,234', change: '+12%', changeType: 'positive' },
-//     { name: 'Active Sales', value: '89', change: '+5%', changeType: 'positive' },
-//     { name: 'Monthly Revenue', value: '₨2.4M', change: '+8%', changeType: 'positive' },
-//     { name: 'New Customers', value: '156', change: '+23%', changeType: 'positive' },
-//   ]
+  const stats = [
+    { name: 'Total Vehicles', value: '1,234', change: '+12%', changeType: 'positive' },
+    { name: 'Active Sales', value: '89', change: '+5%', changeType: 'positive' },
+    { name: 'Monthly Revenue', value: '₨2.4M', change: '+8%', changeType: 'positive' },
+    { name: 'New Customers', value: '156', change: '+23%', changeType: 'positive' },
+  ]
 
-//   const recentActivities = [
-//     { id: 1, action: 'New vehicle added', vehicle: 'Toyota Corolla 2024', time: '2 hours ago' },
-//     { id: 2, action: 'Sale completed', vehicle: 'Honda Civic 2023', time: '4 hours ago' },
-//     { id: 3, action: 'Customer registered', vehicle: 'Suzuki Swift 2024', time: '6 hours ago' },
-//     { id: 4, action: 'Vehicle serviced', vehicle: 'Toyota Camry 2023', time: '8 hours ago' },
-//   ]
+  // const recentActivities = [
+  //   { id: 1, action: 'New vehicle added', vehicle: 'Toyota Corolla 2024', time: '2 hours ago' },
+  //   { id: 2, action: 'Sale completed', vehicle: 'Honda Civic 2023', time: '4 hours ago' },
+  //   { id: 3, action: 'Customer registered', vehicle: 'Suzuki Swift 2024', time: '6 hours ago' },
+  //   { id: 4, action: 'Vehicle serviced', vehicle: 'Toyota Camry 2023', time: '8 hours ago' },
+  // ]
 
 
   return (
@@ -30,7 +30,7 @@ export default function Dashboard() {
       </div>
 
       {/* Stats Grid */}
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {stats.map((stat) => (
           <div key={stat.name} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
             <div className="flex items-center justify-between">
@@ -49,6 +49,32 @@ export default function Dashboard() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Quick Actions */}
+      {/* <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <Link 
+            to="/purchase" 
+            className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors"
+          >
+            <div className="text-2xl mb-2">🛒</div>
+            <p className="text-sm font-medium text-gray-700">Purchase Management</p>
+          </Link>
+          <button className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors">
+            <div className="text-2xl mb-2">🚗</div>
+            <p className="text-sm font-medium text-gray-700">Add Vehicle</p>
+          </button>
+          <button className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors">
+            <div className="text-2xl mb-2">👥</div>
+            <p className="text-sm font-medium text-gray-700">Add Customer</p>
+          </button>
+          <button className="p-4 text-center rounded-lg border-2 border-dashed border-gray-300 hover:border-blue-500 hover:bg-blue-50 transition-colors">
+            <div className="text-2xl mb-2">💰</div>
+            <p className="text-sm font-medium text-gray-700">New Sale</p>
+          </button>
+        </div>
       </div> */}
 
       {/* Main Content Grid */}
