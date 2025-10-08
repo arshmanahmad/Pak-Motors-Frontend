@@ -7,6 +7,7 @@ import Dashboard from './pages/dashboard/Dashboard'
 import Purchase from './pages/purchase/Purchase'
 import Companies from './pages/companies/Companies'
 import Models from './pages/models/Models'
+import EntityManagement from './components/EntityManagement'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/purchase" element={<Purchase />} />
           <Route path="/companies" element={<Companies />} />
           <Route path="/models" element={<Models />} />
+          <Route path="/entities" element={<EntityManagement />} />
         </Route>
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>

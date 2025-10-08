@@ -15,6 +15,7 @@ export default function DashboardWrapper({ children }: DashboardWrapperProps) {
     { name: 'Purchase', href: '/purchase', icon: '🛒' },
     { name: 'Companies', href: '/companies', icon: '🏢' },
     { name: 'Models', href: '/models', icon: '🚗' },
+    { name: 'Entities', href: '/entities', icon: '📋' },
     // { name: 'Vehicles', href: '/dashboard/vehicles', icon: '🚗' },
     // { name: 'Customers', href: '/dashboard/customers', icon: '👥' },
     // { name: 'Sales', href: '/dashboard/sales', icon: '💰' },
